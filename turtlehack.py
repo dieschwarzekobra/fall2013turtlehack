@@ -13,7 +13,7 @@ import random
 # A function that takes a number and makes that many random sized circles
 #def random_circle(number_of_circles):
 	# TODO: write this function
-
+# Here's some code that actually implements this function.
 # A function that changes the turtle's color to a random color
 def random_color():
 	'''
