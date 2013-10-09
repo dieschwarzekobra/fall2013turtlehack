@@ -11,9 +11,17 @@ import random
 	# TODO: write this function 
 
 # A function that takes a number and makes that many random sized circles
+
 #def random_circle(turtle, number_of_circles):
 	# TODO: write this function
 # Here's some code that actually implements this function.
+
+def random_circle(turtle, number_of_circles, max_size = 100):
+	for i in range(number_of_circles):
+	  turtle.circle(random.randint(0,max_size + 1))
+
+
+
 # A function that changes the turtle's color to a random color
 def random_color():
 	'''
